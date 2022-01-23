@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. From Left to The Right"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Floating Equality", "03. Floating Equality\03. Floating Equality.csproj", "{992DDDCA-BADB-4EFE-A556-CAF66AC2298C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Refactoring Prime Checker", "04. Refactoring Prime Checker\04. Refactoring Prime Checker.csproj", "{03E9A656-0781-4971-8C65-9A3104BC7E0A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{992DDDCA-BADB-4EFE-A556-CAF66AC2298C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{992DDDCA-BADB-4EFE-A556-CAF66AC2298C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{992DDDCA-BADB-4EFE-A556-CAF66AC2298C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03E9A656-0781-4971-8C65-9A3104BC7E0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03E9A656-0781-4971-8C65-9A3104BC7E0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03E9A656-0781-4971-8C65-9A3104BC7E0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03E9A656-0781-4971-8C65-9A3104BC7E0A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
