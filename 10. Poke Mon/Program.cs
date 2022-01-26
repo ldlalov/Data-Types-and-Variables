@@ -10,16 +10,16 @@ namespace _10._Poke_Mon
             int distance = int.Parse(Console.ReadLine());
             int exhaustionFactor = int.Parse(Console.ReadLine());
             int count = 0;
-            while (pokePower>=distance)
+            int pokePowerTemp = pokePower;
+            while (pokePowerTemp>=distance)
             {
-                pokePower -= distance;
+                pokePowerTemp -= distance;
                 count++;
-                if (pokePower==pokePower/2.0 && pokePower>=exhaustionFactor)
+                if (pokePowerTemp==pokePower/2.0 && exhaustionFactor != 0)
                 {
-                    pokePower /= exhaustionFactor;
+                    pokePowerTemp /= exhaustionFactor;
                 }
             }
-            Console.WriteLine($"{pokePower}\n{count}");
-        }
+            Console.WriteLine($"{pokePowerTemp}\n{count}");        }
     }
 }
